@@ -1,0 +1,134 @@
+[
+  {
+    "id": "na-1",
+    "name": "Linen Blend Shirt",
+    "price": 1299,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=750&fit=crop",
+    "colors": ["#E8E4DF", "#4A5D4E", "#8B7D6B"],
+    "isNew": true,
+    "isTrending": false,
+    "description": "Breathable linen-blend shirt for everyday ease."
+  },
+  {
+    "id": "na-2",
+    "name": "High Waist Trousers",
+    "price": 1899,
+    "category": "Bottoms",
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=750&fit=crop",
+    "colors": ["#2C2C2C", "#4A5D4E", "#C4B5A0"],
+    "isNew": true,
+    "isTrending": false,
+    "description": "Tailored high-waist trousers with a clean silhouette."
+  },
+  {
+    "id": "na-3",
+    "name": "Tiered Midi Dress",
+    "price": 2499,
+    "category": "Dresses",
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "colors": ["#D4C4B0", "#6B5B4F", "#F5F0E8"],
+    "isNew": true,
+    "isTrending": true,
+    "description": "Soft tiered midi dress for weekend plans."
+  },
+  {
+    "id": "na-4",
+    "name": "Ribbed Top",
+    "price": 899,
+    "category": "Tops",
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=750&fit=crop",
+    "colors": ["#F5F0E8", "#4A5D4E", "#2C2C2C"],
+    "isNew": true,
+    "isTrending": false,
+    "description": "Fitted ribbed top that layers under anything."
+  },
+  {
+    "id": "na-5",
+    "name": "Wide Leg Pants",
+    "price": 1699,
+    "category": "Bottoms",
+    "image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=600&h=750&fit=crop",
+    "colors": ["#E8E4DF", "#5C6B5A", "#8B7D6B"],
+    "isNew": true,
+    "isTrending": false,
+    "description": "Fluid wide-leg pants with an easy drape."
+  },
+  {
+    "id": "na-6",
+    "name": "Blazer",
+    "price": 3299,
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=600&h=750&fit=crop",
+    "colors": ["#4A5D4E", "#2C2C2C", "#C4B5A0"],
+    "isNew": true,
+    "isTrending": true,
+    "description": "Structured blazer for polished everyday looks."
+  },
+  {
+    "id": "tr-1",
+    "name": "Square Neck Top",
+    "price": 999,
+    "category": "Tops",
+    "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=600&h=750&fit=crop",
+    "colors": ["#F5F0E8", "#8B6F5C", "#4A5D4E"],
+    "isNew": false,
+    "isTrending": true,
+    "description": "Flattering square-neck top in soft stretch fabric."
+  },
+  {
+    "id": "tr-2",
+    "name": "A-Line Skirt",
+    "price": 1499,
+    "category": "Skirts",
+    "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=750&fit=crop",
+    "colors": ["#4A5D4E", "#2C2C2C", "#D4C4B0"],
+    "isNew": false,
+    "isTrending": true,
+    "description": "Classic A-line skirt that moves with you."
+  },
+  {
+    "id": "tr-3",
+    "name": "Straight Fit Jeans",
+    "price": 1999,
+    "category": "Bottoms",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=750&fit=crop",
+    "colors": ["#5A6B7A", "#2C2C2C", "#8B7D6B"],
+    "isNew": false,
+    "isTrending": true,
+    "description": "Straight-fit denim with a flattering rise."
+  },
+  {
+    "id": "tr-4",
+    "name": "Wrap Dress",
+    "price": 2799,
+    "category": "Dresses",
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=750&fit=crop",
+    "colors": ["#6B5B4F", "#4A5D4E", "#C4B5A0"],
+    "isNew": false,
+    "isTrending": true,
+    "description": "Wrap dress that cinches and flatters every mood."
+  },
+  {
+    "id": "tr-5",
+    "name": "Crop Shirt",
+    "price": 1199,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=750&fit=crop",
+    "colors": ["#E8E4DF", "#4A5D4E", "#8B7D6B"],
+    "isNew": true,
+    "isTrending": true,
+    "description": "Cropped shirt for pairing with high-waist pieces."
+  },
+  {
+    "id": "tr-6",
+    "name": "Cargo Pants",
+    "price": 2199,
+    "category": "Bottoms",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&h=750&fit=crop",
+    "colors": ["#8B7D6B", "#4A5D4E", "#2C2C2C"],
+    "isNew": false,
+    "isTrending": true,
+    "description": "Utility cargo pants with a soft wash finish."
+  }
+]

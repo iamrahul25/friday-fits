@@ -1,26 +1,105 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root,
+[data-theme="olive"] {
+  --ff-bg: #faf8f2;
+  --ff-bg-soft: #f5f1e8;
+  --ff-surface: #ffffff;
+  --ff-olive: #4d563d;
+  --ff-olive-dark: #363d2c;
+  --ff-olive-soft: #6b7360;
+  --ff-beige: #ede8dd;
+  --ff-beige-deep: #e0d9cb;
+  --ff-text: #292b25;
+  --ff-muted: #777b70;
+  --ff-border: #e5e0d4;
+  --ff-search: #f0ebe3;
+  --ff-hero: #f5f1e8;
+  --ff-banner-from: #5a6550;
+  --ff-banner-to: #3a4232;
+  --ff-card: #ede8dd;
+  --ff-blush: #f3d6d0;
+  --ff-promo: #4d563d;
+}
+
+[data-theme="blush"] {
+  --ff-bg: #faf7f5;
+  --ff-bg-soft: #f5ebe6;
+  --ff-surface: #ffffff;
+  --ff-olive: #8b5a5a;
+  --ff-olive-dark: #734848;
+  --ff-olive-soft: #a87878;
+  --ff-beige: #edd9d0;
+  --ff-beige-deep: #dfc4b8;
+  --ff-text: #2a2222;
+  --ff-muted: #7a6a6a;
+  --ff-border: #eadfdb;
+  --ff-search: #f3eae6;
+  --ff-hero: #f7f0ec;
+  --ff-banner-from: #a06b6b;
+  --ff-banner-to: #7a4e4e;
+  --ff-card: #f3e8e2;
+  --ff-blush: #f3d6d0;
+  --ff-promo: #8b5a5a;
+}
+
+[data-theme="midnight"] {
+  --ff-bg: #121614;
+  --ff-bg-soft: #1a211e;
+  --ff-surface: #1c2420;
+  --ff-olive: #a8c0ae;
+  --ff-olive-dark: #8fad97;
+  --ff-olive-soft: #c5d6c9;
+  --ff-beige: #2a332e;
+  --ff-beige-deep: #35413a;
+  --ff-text: #f2f0eb;
+  --ff-muted: #a8b0aa;
+  --ff-border: #2e3933;
+  --ff-search: #24302a;
+  --ff-hero: #18201c;
+  --ff-banner-from: #2f4036;
+  --ff-banner-to: #1a2620;
+  --ff-card: #222c27;
+  --ff-blush: #5a4545;
+  --ff-promo: #2a332e;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ff-bg: var(--ff-bg);
+  --color-ff-bg-soft: var(--ff-bg-soft);
+  --color-ff-surface: var(--ff-surface);
+  --color-ff-olive: var(--ff-olive);
+  --color-ff-olive-dark: var(--ff-olive-dark);
+  --color-ff-olive-soft: var(--ff-olive-soft);
+  --color-ff-beige: var(--ff-beige);
+  --color-ff-beige-deep: var(--ff-beige-deep);
+  --color-ff-text: var(--ff-text);
+  --color-ff-muted: var(--ff-muted);
+  --color-ff-border: var(--ff-border);
+  --color-ff-search: var(--ff-search);
+  --color-ff-hero: var(--ff-hero);
+  --color-ff-card: var(--ff-card);
+  --color-ff-blush: var(--ff-blush);
+  --color-ff-promo: var(--ff-promo);
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-dm-sans);
+  --font-script: var(--font-caveat);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--ff-bg);
+  color: var(--ff-text);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--ff-olive) 28%, transparent);
 }

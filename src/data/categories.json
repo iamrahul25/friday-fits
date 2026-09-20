@@ -1,0 +1,12 @@
+[
+  { "id": "1", "name": "Tops", "slug": "tops" },
+  { "id": "2", "name": "Dresses", "slug": "dresses" },
+  { "id": "3", "name": "Bottoms", "slug": "bottoms" },
+  { "id": "4", "name": "Co-ords", "slug": "co-ords" },
+  { "id": "5", "name": "Ethnic Wear", "slug": "ethnic-wear" },
+  { "id": "6", "name": "Activewear", "slug": "activewear" },
+  { "id": "7", "name": "Jackets", "slug": "jackets" },
+  { "id": "8", "name": "Skirts", "slug": "skirts" },
+  { "id": "9", "name": "T-Shirts", "slug": "t-shirts" },
+  { "id": "10", "name": "Shirts", "slug": "shirts" }
+]
